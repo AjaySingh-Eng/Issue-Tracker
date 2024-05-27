@@ -1,0 +1,30 @@
+{
+  "name": "issue-tracker",
+  "version": "1.0.0",
+  "description": "Issue Tracker Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ajay Singh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjaySingh-Eng/Issue_Tracker_2024.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AjaySingh-Eng/Issue_Tracker_2024/issues"
+  },
+  "homepage": "https://github.com/AjaySingh-Eng/Issue_Tracker_2024#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "firebase": "^10.12.0",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.3.5"
+  }
+}
